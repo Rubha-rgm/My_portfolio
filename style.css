@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav .logo h1 {
+    color: #f1c40f;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0;
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav .nav-links a:hover {
+    color: #f1c40f;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('img/bg_img.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 800px;
+}
+
+#home h2 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    padding: 12px 40px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f1c40f;
+    color: #333;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Profile Image Styles */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Skills Section */
+#skills {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills-container li {
+    font-size: 1.2rem;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Education Section */
+#education {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Achievements Section */
+#achievements {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
